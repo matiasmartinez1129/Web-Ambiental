@@ -79,11 +79,18 @@ body {
     border-radius: 40px;
 }
 
-.bg-text, .bg-text2, .bg-text3, p, h2, h3{
+.bg-text, .bg-text2, .bg-text3{
     padding: 10px;
 }
-.bg-text, .bg-text2, .bg-text3, h2, h3, p{
-    font-family: "DM sans", sans-serif;
+
+.bg-text p, h2{
+    padding: 10px;
+}
+.bg-text2 p, h3{
+    padding: 10px;
+}
+.bg-text3 p, h3{
+    padding: 10px;
 }
 
 .content-flex {
@@ -129,6 +136,7 @@ body {
     text-align: center;
     font-family: "DM sans", sans-serif;
     font-size: 20px;
+    padding: 10px;
 }
 
 .img-mundo {
@@ -179,6 +187,7 @@ body {
 .content-flex-s3 p {
     text-align: center;
     font-size: 15px;
+    padding: 10px;
     
 }
 @media only screen and (max-width: 3500px){
@@ -368,6 +377,36 @@ body {
         padding: 50px;
     }
 
+    .flex-mision-vision{
+        flex-direction: column;
+    }
+    .mision {
+        padding: 0;
+        
+    }
+    .mision h3{
+        padding-bottom:  10px ;
+    }
+    .vision{
+        padding: 0;
+    }
+    .vision p{
+        padding-top: 10px;
+    }
+    .valores{
+        flex-direction: column;
+        
+    }
+    .valor{
+        padding-top: 20px;
+    }
+    .valor h3{
+        padding-bottom: 10px;
+    }
+
+    .unete{
+        margin: 30px !important;
+    }
     /*SECTION 2*/
 
     .title{
@@ -487,16 +526,19 @@ body {
 
 .card-content h3 {
     font-size: 15px;
+    padding: 10px;
 }
 .name {
     font-size: 18px;
     font-weight: 500;
     color: rgb(70, 158, 70) ;
+    padding: 10px;
 }
 .description {
     font-size: 14px;
     color: #707070;
     text-align: center;
+    padding: 10px;
 }
 .button{
     border: none;
@@ -560,6 +602,7 @@ body {
   }
   .valor p {
     max-width: 600px;
+    padding: 10px;
   }
   .bg1{
      background-color: #3cb371 ;
