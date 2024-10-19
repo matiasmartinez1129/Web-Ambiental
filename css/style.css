@@ -7,7 +7,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 /*HEADER*/
-
+body {
+    background-image: url(../images/bg-section.png);
+}
 .navbar-desktop {
     display: flex;
     justify-content: space-around;
@@ -512,4 +514,81 @@
 }
 
 
+  /*QUIENES SOMOS*/
+
+.quienes-somos h2 {
+    text-align: center;
+    font-size: 40px;
+    padding: 40px;
+}
+
+  .flex-mision-vision{
+    display: flex;
+    
+  }
+
+  .mision{
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(245, 245, 127);
+    margin: 40px;
+    border-radius: 20px;
+}
+  .mision p{
+    max-width: 600px;
+  }
+  .vision{
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(70, 158, 70);
+    margin: 40px;
+    border-radius: 20px;
+  }
+  .vision p {
+    max-width: 600px;
+  }
+
+  .valores{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    gap: ;
+  }
+  .valor{
+    text-align: center;
+    margin: 20px;
+  }
+  .valor p {
+    max-width: 600px;
+  }
+  .bg1{
+     background-color: #3cb371 ;
+     border-radius: 20px;
+  }
+
+  .bg2 {
+    background-color: #ff8c00 ;
+    border-radius: 20px;
+  }
+
+  .bg3{
+    background-color: #1e90ff ;
+    border-radius: 20px;
+  }
+
+  .bg4{
+    background-color: rgb(245, 245, 127);
+    border-radius: 20px;
+  }
+
+  .unete{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color:  rgb(70, 158, 70);
+    margin-bottom: 50px;
+    border-radius: 20px;
+
+ 
+  }
   
