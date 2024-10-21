@@ -693,5 +693,10 @@ border-radius: 20px;
         height: auto;
         
     }
+    .p-quienes{
+        width: 90%;
+        font-size: 15px;
+        padding: 10px;
+    }
  
 }
